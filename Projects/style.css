@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.horizontal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+
+.logo h1, .logo h3 {
+    margin: 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.5em;
+}
+
+.contact-info a:hover {
+    color: #ffc107;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.main-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.main-content p {
+    color: #666;
+    margin: 0;
+}
+.main-content a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.main-content a:hover {
+    background-color: #0056b3;
+}
